@@ -1,0 +1,25 @@
+{
+
+  "search.exclude": {    
+    "**/.my_env": true,
+    "**/my_env": true
+  },
+
+  "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true,
+      "**/my_env/**": true,  
+      "**/.my_env/**": true
+  },
+  "python.pythonPath": [
+    "./my_env/bin/python3"
+  ],
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/galactic/lib/python3.8/site-packages"
+  ],
+  
+
+
+
+}
