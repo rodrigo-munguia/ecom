@@ -1,5 +1,9 @@
 .vscode/*
+my_env/*
 images/*
+cert.pem
+key.pem
+personal_config.json
 
 
 
@@ -101,6 +105,7 @@ venv/
 ENV/ 
 env.bak/ 
 venv.bak/ 
+my_env/
 
 # mkdocs documentation 
 /site 
